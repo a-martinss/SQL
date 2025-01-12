@@ -1,0 +1,34 @@
+CREATE TABLE Livros(
+  Book_ID INT PRIMARY KEY,
+  Book_Title VARCHAR (1000),
+  Author VARCHAR (250),
+  Editora VARCHAR (30)
+);
+
+INSERT INTO Livros (Book_ID, Book_Title, Author, Editora)
+VALUES
+(1, 'Harry Potter | Box 7 livros - Pedra Filosofal, Câmara Secreta, Prisioneiro de Azkaban,
+ Cálice de Fogo, Ordem da Fênix, Enigma do Príncipe, Relíquias da Morte', 'J. K. Rowling', 'Rocco'),
+(2, 'Steve Jobs', 'Walter Isaacson', 'Companhia das Letras'),
+(3, 'Will', 'Mark Manson', 'BestSeller'),
+(4, 'Ponto de Inflexão', 'Flávio Augusto da Silva', 'Buzz'),
+(5, 'O Futuro da Humanidade', 'Augusto Cury', 'Sextante'),
+(6, 'Do Mil ao Milhão', 'Thiago Nigro', 'Harper Collins'),
+(7, 'Rápido e Devagar', 'Daniel Kahneman', 'Objetiva'),
+(8, 'Como fazer amigos e influenciar peassoas', 'Dale Carnegie', 'Sextante'),
+(9, 'Por que pessoas inteligentes cometem erros idiotas?', 'David Robson', 'Sextante'),
+(10, 'Geração de Valor 1 Compartilhando Inspiração', 'Flávio Augusto da Silva', 'Buzz'),
+(11, 'Geração de Valor 2 Plantando Sonhos, Colhendo Conquistas', 'Flávio Augusto da Silva', 'Buzz'),
+(12, 'Geração de Valor 3 é só o Começo', 'Flávio Augusto da Silva', 'Buzz'),
+(13, 'Os 7 Hábitos das pessoas altamente eficazes', 'Stephen R. Covey', 'BestSeller'),
+(14, '21 Lições para o século 21', 'Yuval Noah Harari', 'Companhia das Letras'),
+(15, 'Os segredos da mente milionária', 'T. Harv Eker', 'Sextante'),
+(16, 'Feliz dia novo', 'Irineu Toledo', 'Sextante'),
+(17, 'Fale tudo em inglês em viagens', 'José Roberto A. igreja', 'Disal Edidora'),
+(18, 'Reféns da Maternidade', 'Renato Rodrigues, Stephany Rodrigues, Luka Mendes','Edição Limitada - TCC'),
+(19, 'O Poder Medicinal dos Sucos e Shakes', 'Dr. Jorge Pamplona', 'Edição Exclusiva QualiVida'),
+(20, 'Café com Deus Pai', 'Junior Rostirola', 'Vida'),
+(21, 'Fundamentos de HTML5 e CSS3', 'Maurício Samy Silva', 'Novatec'),
+(22, 'SQL Guia Prático Um guia para o uso do SQL', 'Alice Zhao', 'Novatec');
+
+SELECT * FROM Livros;
